@@ -57,8 +57,10 @@ nav {
   height: 70px;
 }
 
-.top-follow > a {
+.top-follow a {
   padding-right: 1rem;
+  position: relative;
+  top: -1rem;
 }
 
 /* hero */
