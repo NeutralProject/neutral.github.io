@@ -1,3 +1,6 @@
+/* imports */
+@import url("./background.css");
+
 /* helpers */
 .black-bg {
   background-color: rgba(1, 1, 1, 1);
@@ -128,9 +131,9 @@ nav {
   padding-right: 2rem;
 }
 
-#advisors {
-  background-image: url("../assets/black-blur-background.png");
-}
+/*#advisors {*/
+  /*background: url("../assets/black-blur-background.png");*/
+/*}*/
 
 /* contact form */
 
@@ -187,6 +190,7 @@ nav {
 /* connection part */
 #connection {
   background-image: url("../assets/join_bg.png");
+  max-height: 175px;
 }
 
 /* footer */
