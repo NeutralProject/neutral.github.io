@@ -1,0 +1,216 @@
+/* helpers */
+.black-bg {
+  background-color: rgba(1, 1, 1, 1);
+}
+
+.default-text-color {
+  color: white;
+}
+
+.subtitle-font-size {
+  font-size: 1.5rem;
+}
+
+.default-side-padding {
+  padding: 60px;
+}
+
+.rounded-avatar {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.shadow-input {
+  background-color: #EDEEF2;
+}
+
+.border-radius-10px {
+  border-radius: 10px;
+}
+
+.button-info {
+  background-color: rgba(31, 93, 234, 1) !important;
+}
+
+/* header and nav*/
+
+#header-wrapper {
+  background: url("../assets/top-bg.png");
+  min-height: 834px;
+}
+
+.neutral-icon {
+  color: white;
+}
+
+nav {
+  background-color: transparent !important;
+}
+
+.logo-hover-overwrite:hover {
+  background-color: transparent !important;
+}
+
+.logo {
+  width: 292px;
+  height: 70px;
+}
+
+.top-follow > a {
+  padding-right: 1rem;
+}
+
+/* hero */
+.neutral-hero-title,
+.neutral-hero-subtitle {
+  color: white;
+}
+
+.neutral-hero-subtitle {
+  font-size: 1.5rem;
+  opacity: .8;
+}
+
+.neutral-hero-title {
+  font-size: 2rem;
+  line-height: 1.95rem;
+}
+
+.neutral-hero-body {
+  padding-top: 10rem;
+}
+
+.white-paper-download {
+  margin-top: 3rem;
+}
+
+/* brought by section*/
+.neutral-brought-by {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+.brought-by-text {
+  margin-bottom: 4rem;
+}
+
+.brought-by-logo img {
+  margin: 0 2rem;
+}
+
+/* Team and Advisors section */
+
+.team-title {
+  margin-bottom: 5rem !important;
+}
+
+.member-description {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.member-title,
+.member-detail {
+  opacity: 0.6;
+}
+
+#advisors,
+#team {
+  padding-bottom: 8rem;
+}
+
+#advisors {
+  background-image: url("../assets/black-blur-background.png");
+}
+
+/* contact form */
+
+#contact {
+  padding-bottom: 10rem;
+}
+
+.contact-wrapper {
+  max-width: 50rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact-form {
+  margin-top: 4rem;
+}
+
+.contact-form-label {
+  opacity: 0.6;
+  padding-left: 1rem;
+}
+
+.notify-checkbox {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.get-notified .button {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* rounded checkbox */
+.checkbox-round {
+  position: relative;
+  top: 0.35rem;
+  padding-top: 0.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: rgba(31, 93, 234, 1);
+}
+
+/* connection part */
+#connection {
+  background-image: url("../assets/join_bg.png");
+}
+
+/* footer */
+.footer-description {
+  opacity: 0.6;
+}
+
+.logo-black {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+#about .column {
+  padding-right: 2rem;
+}
+
+.footer-follow a {
+  color: black;
+  padding-right: 1.2rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+.read-more {
+  font-size: 0.8rem;
+}
+
+.read-more a {
+  color: inherit;
+}
+.read-more p {
+  padding-top: .5rem;
+}
