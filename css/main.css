@@ -17,8 +17,8 @@
 
 .rounded-avatar {
   border-radius: 50%;
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
 }
 
 .shadow-input {
@@ -120,6 +120,12 @@ nav {
 #advisors,
 #team {
   padding-bottom: 8rem;
+}
+
+#advisors .column,
+#team .column{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #advisors {
